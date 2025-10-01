@@ -41,7 +41,7 @@ const Blog = () => {
                 <input
                   type="text"
                   placeholder="Buscar artículos..."
-                  className="w-full px-6 py-4 pl-14 pr-12 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent text-gray-800"
+                  className="w-full px-6 py-4 pl-14 pr-12 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-[#007BFF] focus:border-transparent text-gray-800"
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
                 />
@@ -151,7 +151,7 @@ const Blog = () => {
                       </div>
                       <div className="p-6 md:w-2/3">
                         <div className="flex items-center space-x-4 text-sm text-muted-foreground mb-3">
-                          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-100 text-red-800">
+                          <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-[#007BFF]">
                             Inmuebles
                           </span>
                           <span>15 de Julio, 2024</span>

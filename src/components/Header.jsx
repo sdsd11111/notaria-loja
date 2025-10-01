@@ -46,17 +46,14 @@ const Header = () => {
             }}
             onMouseLeave={() => {
               menuTimer = setTimeout(() => {
-                if (!isMouseOverMenu) {
-                  setIsServiciosOpen(false);
-                }
+                setIsServiciosOpen(false);
               }, 300);
             }}
           >
-            <button 
-              className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-all duration-200 uppercase tracking-wide text-sm font-medium ${
+            <button                className={`flex items-center space-x-1 px-3 py-2 rounded-md transition-all duration-200 uppercase tracking-wide text-sm font-medium ${
                 isServiciosOpen || isMouseOverMenu 
-                  ? 'bg-primary text-white' 
-                  : 'text-foreground/80 hover:bg-primary/10 hover:text-primary'
+                  ? 'bg-[#007BFF] text-white' 
+                  : 'text-foreground/80 hover:bg-[#007BFF]/10 hover:text-[#007BFF]'
               }`}
               onClick={() => setIsServiciosOpen(!isServiciosOpen)}
             >
@@ -87,7 +84,7 @@ const Header = () => {
                   <Link
                     key={index}
                     to={item.path}
-                    className="relative block px-4 py-3 text-sm text-foreground/80 transition-all duration-200 rounded mx-2 hover:bg-primary hover:text-white"
+                    className="relative block px-4 py-3 text-sm text-foreground/80 transition-all duration-200 rounded mx-2 hover:bg-[#007BFF] hover:text-white"
                     onClick={() => setIsServiciosOpen(false)}
                   >
                     {item.name}

@@ -112,28 +112,28 @@ const NotariaLoja = () => {
 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="text-xl font-semibold text-red-600 mb-3">🔒 Seguridad Jurídica</h4>
+                    <h4 className="text-xl font-semibold text-[#007BFF] mb-3">🔒 Seguridad Jurídica</h4>
                     <p className="text-gray-600">
                       Tu paz mental es nuestra meta. Cada documento emitido cuenta con un análisis riguroso para proteger tus derechos y prevenir conflictos futuros.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="text-xl font-semibold text-red-600 mb-3">💬 Transparencia Absoluta</h4>
+                    <h4 className="text-xl font-semibold text-[#007BFF] mb-3">💬 Transparencia Absoluta</h4>
                     <p className="text-gray-600">
                       Creemos en la información clara. Te explicamos cada paso, cada costo (basado en tarifas oficiales), y cada implicación de tu trámite. Sin letras pequeñas. Sin sorpresas.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="text-xl font-semibold text-red-600 mb-3">⚡ Eficiencia Probada</h4>
+                    <h4 className="text-xl font-semibold text-[#007BFF] mb-3">⚡ Eficiencia Probada</h4>
                     <p className="text-gray-600">
                       Respetamos tu tiempo. Por eso optimizamos cada proceso para que avances con rapidez y sin contratiempos.
                     </p>
                   </div>
 
                   <div>
-                    <h4 className="text-xl font-semibold text-red-600 mb-3">🤝 Trato Humano</h4>
+                    <h4 className="text-xl font-semibold text-[#007BFF] mb-3">🤝 Trato Humano</h4>
                     <p className="text-gray-600">
                       Detrás de cada trámite hay una historia personal. Te atendemos con cercanía, empatía y total confidencialidad.
                     </p>
@@ -166,15 +166,15 @@ const NotariaLoja = () => {
               <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
                 <a
                   href="/servicios"
-                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-red-600 hover:bg-red-700 transition-colors duration-200"
+                  className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-full text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
                 >
                   Ver Nuestros Servicios Notariales
                 </a>
                 <a
-                  href="https://wa.me/59372570406"
+                  href="https://wa.me/593963410409"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 border border-red-600 text-base font-medium rounded-full text-red-600 bg-white hover:bg-red-50 transition-colors duration-200"
+                  className="inline-flex items-center justify-center px-8 py-4 border border-[#007BFF] text-base font-medium rounded-full text-[#007BFF] bg-white hover:bg-blue-50 transition-colors duration-200"
                 >
                   Agendar una Cita con Nuestro Equipo
                 </a>
@@ -203,7 +203,7 @@ const NotariaLoja = () => {
                 viewport={{ once: true }}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200"
               >
-                <div className="bg-red-600 p-6">
+                <div className="bg-[#007BFF] p-6">
                   <h3 className="text-2xl font-bold text-white">
                     Misión
                   </h3>
@@ -225,7 +225,7 @@ const NotariaLoja = () => {
                 viewport={{ once: true }}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200"
               >
-                <div className="bg-red-600 p-6">
+                <div className="bg-[#007BFF] p-6">
                   <h3 className="text-2xl font-bold text-white">
                     Visión
                   </h3>

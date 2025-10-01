@@ -38,7 +38,7 @@ const InmueblesYPropiedades = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Iniciar Trámite de Compraventa
           </button>
         </div>
@@ -80,7 +80,7 @@ const InmueblesYPropiedades = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Gestionar mi Trámite de Hipoteca
           </button>
         </div>
@@ -121,7 +121,7 @@ const InmueblesYPropiedades = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Asesoría para Partición de Bienes
           </button>
         </div>
@@ -159,7 +159,7 @@ const InmueblesYPropiedades = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Formalizar una Promesa de Compraventa
           </button>
         </div>
@@ -196,7 +196,7 @@ const InmueblesYPropiedades = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Detalles sobre Inscripción de Arriendos
           </button>
         </div>
@@ -304,13 +304,12 @@ const InmueblesYPropiedades = () => {
                           onClick={() => setActiveTab(tab.id)}
                           className={`w-full flex items-center px-4 py-3 text-left rounded-lg transition-colors duration-200 ${
                             activeTab === tab.id
-                              ? 'bg-red-700 text-white'
+                                ? 'bg-[#0056b3] text-white'
                               : 'text-gray-700 hover:bg-gray-100'
                           }`}
                         >
                           <span className="flex items-center">
                             {tab.icon}
-                            {tab.title}
                           </span>
                           <ChevronRight 
                             className={`ml-auto h-5 w-5 transform transition-transform duration-200 ${
@@ -338,7 +337,7 @@ const InmueblesYPropiedades = () => {
                             className="p-8 h-full"
                           >
                             <div className="flex items-center mb-6">
-                              <div className="p-3 rounded-full bg-red-100 text-red-700 mr-4">
+                              <div className="p-3 rounded-full bg-blue-100 text-[#007BFF] mr-4">
                                 {tab.icon}
                               </div>
                               <div>
@@ -361,7 +360,7 @@ const InmueblesYPropiedades = () => {
       </section>
 
       {/* CTA Final */}
-      <section className="py-20 bg-red-700">
+      <section className="py-20 bg-[#007BFF]">
         <div className="container-max text-center text-white px-4">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}

@@ -26,16 +26,16 @@ const Footer = () => {
               Enlaces Rápidos
             </h3>
             <div className="space-y-2">
-              <Link to="/" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Inicio
               </Link>
-              <Link to="/notaria-loja" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/notaria-loja" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Notaría Loja
               </Link>
-              <Link to="/tercera-edad" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/tercera-edad" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Tercera Edad
               </Link>
-              <Link to="/blog" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/blog" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Blog
               </Link>
             </div>
@@ -47,19 +47,19 @@ const Footer = () => {
               Servicios
             </h3>
             <div className="space-y-2">
-              <Link to="/servicios/declaraciones-y-otros" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/servicios/declaraciones-y-otros" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Declaraciones y Otros
               </Link>
-              <Link to="/servicios/vehiculos" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/servicios/vehiculos" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Vehículos
               </Link>
-              <Link to="/servicios/poderes-y-autorizaciones" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/servicios/poderes-y-autorizaciones" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Poderes y Autorizaciones
               </Link>
-              <Link to="/servicios/familia-y-sucesiones" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/servicios/familia-y-sucesiones" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Familia y Sucesiones
               </Link>
-              <Link to="/servicios/inmuebles-y-propiedades" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+              <Link to="/servicios/inmuebles-y-propiedades" className="block text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
                 Inmuebles y Propiedades
               </Link>
             </div>
@@ -72,19 +72,19 @@ const Footer = () => {
             </h3>
             <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <MapPin className="h-5 w-5 text-[#007BFF] mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  Av. 24 de Mayo 10-51 y 10 de Agosto, Edificio Plaza Real, Local 1, Loja
+Nicolás Guillen, Y, Loja 110102
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="tel:+593999999999" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  +593 99 999 9999
+                <Phone className="h-5 w-5 text-[#007BFF] flex-shrink-0" />
+                <a href="https://wa.me/593963410409" className="text-muted-foreground hover:text-[#007BFF] transition-colors text-sm">
+                  +593 96 341 0409
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Clock className="h-5 w-5 text-primary flex-shrink-0" />
+                <Clock className="h-5 w-5 text-[#007BFF] flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
                   Lun - Vie: 8:00 AM - 5:00 PM
                 </span>
@@ -108,7 +108,7 @@ const Footer = () => {
                 href="https://cesarreyesjaramillo.com/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-primary hover:underline"
+                className="text-[#007BFF] hover:underline"
               >
                 @cesarreyesjaramillo.com
               </a>

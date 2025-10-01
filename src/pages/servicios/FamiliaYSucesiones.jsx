@@ -16,7 +16,7 @@ const FamiliaYSucesiones = () => {
       content: (
         <>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full bg-red-100 text-red-700 flex items-center justify-center font-bold">1</div>
+            <div className="w-10 h-10 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center font-bold">1</div>
             <h3 className="text-xl font-bold text-gray-900">Solución Ágil y Respetuosa</h3>
           </div>
           
@@ -30,7 +30,7 @@ const FamiliaYSucesiones = () => {
           
           <a 
             href="/servicios/divorcio-mutuo-consentimiento" 
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
           >
             Información sobre el Divorcio Notarial
             <FileText className="ml-2 h-5 w-5" />
@@ -47,7 +47,7 @@ const FamiliaYSucesiones = () => {
       content: (
         <>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full bg-red-100 text-red-700 flex items-center justify-center font-bold">2</div>
+            <div className="w-10 h-10 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center font-bold">2</div>
             <h3 className="text-xl font-bold text-gray-900">Tu legado en buenas manos</h3>
           </div>
           
@@ -57,19 +57,19 @@ const FamiliaYSucesiones = () => {
           
           <ul className="space-y-3 mb-8">
             <li className="flex items-start">
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3 mt-0.5">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3 mt-0.5">
                 <CheckCircle className="h-4 w-4" />
               </div>
               <span className="text-gray-700">Asegura el bienestar de tus seres queridos</span>
             </li>
             <li className="flex items-start">
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3 mt-0.5">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3 mt-0.5">
                 <CheckCircle className="h-4 w-4" />
               </div>
               <span className="text-gray-700">Evita conflictos familiares futuros</span>
             </li>
             <li className="flex items-start">
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3 mt-0.5">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3 mt-0.5">
                 <CheckCircle className="h-4 w-4" />
               </div>
               <span className="text-gray-700">Tramitación ágil y segura</span>
@@ -78,7 +78,7 @@ const FamiliaYSucesiones = () => {
           
           <a 
             href="/servicios/testamentos" 
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
           >
             Cómo Hacer un Testamento en Loja
             <FileText className="ml-2 h-5 w-5" />
@@ -95,7 +95,7 @@ const FamiliaYSucesiones = () => {
       content: (
         <>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full bg-red-100 text-red-700 flex items-center justify-center font-bold">3</div>
+            <div className="w-10 h-10 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center font-bold">3</div>
             <h3 className="text-xl font-bold text-gray-900">Regularización de Herencias</h3>
           </div>
           
@@ -120,7 +120,7 @@ const FamiliaYSucesiones = () => {
           
           <a 
             href="/servicios/posesion-efectiva" 
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
           >
             Conoce sobre la Posesión Efectiva
             <FileText className="ml-2 h-5 w-5" />
@@ -137,7 +137,7 @@ const FamiliaYSucesiones = () => {
       content: (
         <>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full bg-red-100 text-red-700 flex items-center justify-center font-bold">4</div>
+            <div className="w-10 h-10 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center font-bold">4</div>
             <h3 className="text-xl font-bold text-gray-900">Protección Legal para tu Relación</h3>
           </div>
           
@@ -147,19 +147,19 @@ const FamiliaYSucesiones = () => {
           
           <ul className="space-y-3 mb-8">
             <li className="flex items-start">
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3 mt-0.5">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3 mt-0.5">
                 <CheckCircle className="h-4 w-4" />
               </div>
               <span className="text-gray-700">Reconocimiento legal de tu relación</span>
             </li>
             <li className="flex items-start">
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3 mt-0.5">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3 mt-0.5">
                 <CheckCircle className="h-4 w-4" />
               </div>
               <span className="text-gray-700">Protección del patrimonio familiar</span>
             </li>
             <li className="flex items-start">
-              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3 mt-0.5">
+              <div className="flex-shrink-0 w-6 h-6 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3 mt-0.5">
                 <CheckCircle className="h-4 w-4" />
               </div>
               <span className="text-gray-700">Derechos hereditarios y de seguridad social</span>
@@ -168,7 +168,7 @@ const FamiliaYSucesiones = () => {
           
           <a 
             href="/servicios/union-de-hecho" 
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
           >
             Detalles sobre la Unión de Hecho
             <Users className="ml-2 h-5 w-5" />
@@ -185,7 +185,7 @@ const FamiliaYSucesiones = () => {
       content: (
         <>
           <div className="flex items-center gap-3 mb-6">
-            <div className="w-10 h-10 rounded-full bg-red-100 text-red-700 flex items-center justify-center font-bold">5</div>
+            <div className="w-10 h-10 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center font-bold">5</div>
             <h3 className="text-xl font-bold text-gray-900">Planificación Patrimonial</h3>
           </div>
           
@@ -196,7 +196,7 @@ const FamiliaYSucesiones = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             <div className="bg-gray-50 p-4 rounded-lg">
               <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                <FileCheck className="h-5 w-5 text-red-600 mr-2" />
+                <FileCheck className="h-5 w-5 text-[#007BFF] mr-2" />
                 Ventajas
               </h4>
               <ul className="space-y-2 text-sm text-gray-700">
@@ -217,7 +217,7 @@ const FamiliaYSucesiones = () => {
             
             <div className="bg-gray-50 p-4 rounded-lg">
               <h4 className="font-semibold text-gray-900 mb-2 flex items-center">
-                <Scale className="h-5 w-5 text-red-600 mr-2" />
+                <Scale className="h-5 w-5 text-[#007BFF] mr-2" />
                 Requisitos
               </h4>
               <ul className="space-y-2 text-sm text-gray-700">
@@ -239,7 +239,7 @@ const FamiliaYSucesiones = () => {
           
           <a 
             href="/servicios/donaciones" 
-            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+            className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
           >
             Cómo Realizar una Donación
             <Gift className="ml-2 h-5 w-5" />
@@ -348,7 +348,7 @@ const FamiliaYSucesiones = () => {
                           onClick={() => setActiveTab(tab.id)}
                           className={`w-full flex items-center px-4 py-3 text-left rounded-lg transition-colors duration-200 ${
                             activeTab === tab.id
-                              ? 'bg-red-700 text-white'
+                              ? 'bg-[#007BFF] text-white'
                               : 'text-gray-700 hover:bg-gray-100'
                           }`}
                         >
@@ -382,7 +382,7 @@ const FamiliaYSucesiones = () => {
                             className="p-8 h-full"
                           >
                             <div className="flex items-center mb-6">
-                              <div className="p-3 rounded-full bg-red-100 text-red-700 mr-4">
+                              <div className="p-3 rounded-full bg-blue-100 text-[#007BFF] mr-4">
                                 {tab.icon}
                               </div>
                               <div>
@@ -407,7 +407,7 @@ const FamiliaYSucesiones = () => {
 
 
       {/* CTA Final */}
-      <section className="py-20 bg-red-700">
+      <section className="py-20 bg-[#007BFF]">
         <div className="container-max text-center text-white px-4">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
@@ -422,7 +422,7 @@ const FamiliaYSucesiones = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               ¿Tu Situación Familiar Requiere Asesoría Personalizada?
             </h2>
-            <p className="text-xl text-red-100 leading-relaxed max-w-3xl mx-auto mb-8">
+            <p className="text-xl text-blue-100 leading-relaxed max-w-3xl mx-auto mb-8">
               Cada familia es única y cada caso merece ser escuchado con atención y respeto. Si tienes dudas o te enfrentas a una situación compleja, no estás solo.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -430,7 +430,7 @@ const FamiliaYSucesiones = () => {
                 href="https://wa.me/593987654321" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-md text-red-700 bg-white hover:bg-gray-100 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-medium rounded-md text-[#007BFF] bg-white hover:bg-gray-100 transition-colors duration-200"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Escríbenos por WhatsApp

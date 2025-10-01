@@ -55,7 +55,7 @@ const PoderesYAutorizaciones = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Agendar Cita para Asesoría de Poder
           </button>
         </div>
@@ -92,7 +92,7 @@ const PoderesYAutorizaciones = () => {
             ¿Necesitas otro tipo de autorización específica? Consúltanos. Estamos para orientarte.
           </p>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Consultar sobre Representación Legal
           </button>
         </div>
@@ -128,7 +128,7 @@ const PoderesYAutorizaciones = () => {
             </ul>
           </div>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Gestionar Permiso de Viaje Ahora
           </button>
         </div>
@@ -158,7 +158,7 @@ const PoderesYAutorizaciones = () => {
             Para revocar un poder en Loja, solo necesitas tu identificación y, si es posible, una copia del poder que deseas anular.
           </p>
 
-          <button className="mt-6 bg-red-700 hover:bg-red-800 text-white font-medium py-2 px-6 rounded transition duration-300">
+          <button className="mt-6 bg-[#007BFF] hover:bg-[#0056b3] text-white font-medium py-2 px-6 rounded transition duration-300">
             Asegura tu Control y Revoca un Poder
           </button>
         </div>
@@ -236,13 +236,13 @@ const PoderesYAutorizaciones = () => {
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">¿Listo para realizar tu trámite?</span>
-            <span className="block text-red-700">Contáctanos hoy mismo.</span>
+            <span className="block text-[#007BFF]">Contáctanos hoy mismo.</span>
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
                 href="/contacto"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
               >
                 Contáctanos
               </a>
@@ -250,7 +250,7 @@ const PoderesYAutorizaciones = () => {
             <div className="ml-3 inline-flex rounded-md shadow">
               <a
                 href="tel:072570000"
-                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-red-700 bg-white hover:bg-gray-50 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-[#007BFF] bg-white hover:bg-gray-50 transition-colors duration-200"
               >
                 Llamar ahora
               </a>

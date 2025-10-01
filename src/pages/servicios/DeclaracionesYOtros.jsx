@@ -156,7 +156,7 @@ const DeclaracionesYOtros = () => {
                       
                       <div className="mt-8">
                         <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
-                          <span className="w-8 h-8 rounded-full bg-red-100 text-red-700 flex items-center justify-center mr-3">2</span>
+                          <span className="w-8 h-8 rounded-full bg-blue-100 text-[#007BFF] flex items-center justify-center mr-3">2</span>
                           Requisitos Necesarios
                         </h3>
                         <div className="grid md:grid-cols-2 gap-6">
@@ -237,7 +237,7 @@ const DeclaracionesYOtros = () => {
                 href="https://wa.me/59372570406?text=Hola,%20necesito%20más%20información%20sobre%20los%20servicios%20de%20documentación%20legal"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-700 hover:bg-red-800 transition-colors duration-200"
+                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] transition-colors duration-200"
               >
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Solicitar más información

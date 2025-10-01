@@ -479,7 +479,7 @@ const Home = () => {
                         <div className="mt-auto text-right">
                           <Link
                             to={servicio.path}
-                            className="inline-flex items-center text-red-600 hover:text-red-700 font-medium transition-colors"
+                            className="inline-flex items-center text-[#007BFF] hover:text-[#0056b3] font-medium transition-colors"
                           >
                             {servicio.buttonText}
                             <ArrowRight className="w-4 h-4 ml-2" />
@@ -515,7 +515,7 @@ const Home = () => {
                   key={index}
                   onClick={() => setCurrentServiceIndex(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    currentServiceIndex === index ? 'bg-red-600 w-8' : 'bg-gray-300'
+                    currentServiceIndex === index ? 'bg-[#007BFF] w-8' : 'bg-gray-300'
                   }`}
                   aria-label={`Ir al servicio ${index + 1}`}
                 />
@@ -533,11 +533,11 @@ const Home = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-r from-red-50 to-red-100 rounded-3xl p-8 md:p-12 shadow-lg border border-red-100 relative overflow-hidden"
+            className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-3xl p-8 md:p-12 shadow-lg border border-blue-100 relative overflow-hidden"
           >
             {/* Decorative elements */}
-            <div className="absolute top-0 right-0 w-32 h-32 bg-red-200/30 rounded-full -translate-y-16 translate-x-16"></div>
-            <div className="absolute bottom-0 left-0 w-24 h-24 bg-red-300/20 rounded-full translate-y-12 -translate-x-12"></div>
+            <div className="absolute top-0 right-0 w-32 h-32 bg-blue-200/30 rounded-full -translate-y-16 translate-x-16"></div>
+            <div className="absolute bottom-0 left-0 w-24 h-24 bg-blue-300/20 rounded-full translate-y-12 -translate-x-12"></div>
             
             <div className="relative z-10 grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
               {/* Content */}
@@ -548,7 +548,7 @@ const Home = () => {
                 <p className="text-gray-700 leading-relaxed text-lg">
                   Ponemos a su disposición el servicio notarial telemático que facilita a los usuarios la celebración de diferentes actos y contratos desde cualquier parte del mundo con la condición de que al menos una de las partes se encuentre en la circunscripción territorial donde el notario ejerce su competencia, en este caso, Loja. El otorgamiento del respectivo acto o contrato se realiza en una reunión previamente planificada a través de videoconferencia o cualquier otro medio telemático.
                 </p>
-                <button className="inline-flex items-center bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
+                <button className="inline-flex items-center bg-[#007BFF] hover:bg-[#0056b3] text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg">
                   MÁS INFORMACIÓN
                   <ChevronRight className="w-5 h-5 ml-2" />
                 </button>
@@ -557,7 +557,7 @@ const Home = () => {
               {/* Visual Element */}
               <div className="lg:col-span-1 flex justify-center">
                 <div className="relative">
-                  <div className="w-48 h-32 bg-gradient-to-br from-red-500 to-red-600 rounded-2xl shadow-xl transform rotate-3 flex items-center justify-center">
+                  <div className="w-48 h-32 bg-gradient-to-br from-[#007BFF] to-[#0056b3] rounded-2xl shadow-xl transform rotate-3 flex items-center justify-center">
                     <div className="text-white text-center">
                       <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-2">
                         <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
@@ -634,7 +634,7 @@ const Home = () => {
                       <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto">
                         {banner.description}
                       </p>
-                      <button className="bg-red-600 hover:bg-red-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300 inline-flex items-center">
+                      <button className="bg-[#007BFF] hover:bg-[#0056b3] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors duration-300 inline-flex items-center">
                         {banner.cta}
                         <ArrowRight className="w-5 h-5 ml-3" />
                       </button>
@@ -710,9 +710,9 @@ const Home = () => {
                   <MapPin className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <p className="text-foreground font-medium">Dirección:</p>
-                    <p className="text-muted-foreground">Av. Emiliano Ortega & Quito, Loja – Ecuador</p>
+                    <p className="text-muted-foreground">Nicolás Guillen, Y, Loja 110102</p>
                     <p className="text-muted-foreground text-sm mt-1">
-                      A pocos pasos del Parque de la Catedral y junto al río Zamora.
+                      Ubicación estratégica en el centro de Loja.
                     </p>
                   </div>
                 </div>
@@ -722,10 +722,12 @@ const Home = () => {
                   <div>
                     <p className="text-foreground font-medium">Teléfono y WhatsApp:</p>
                     <a 
-                      href="tel:+59372570406" 
+                      href="https://wa.me/593963410409" 
                       className="text-primary hover:text-accent transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      +593 7 257 0406
+                      096 341 0409
                     </a>
                   </div>
                 </div>
@@ -742,7 +744,7 @@ const Home = () => {
               </div>
 
               <a 
-                href="https://maps.app.goo.gl/o4vYc36Xqc5fryoWA"
+                href="https://maps.app.goo.gl/HdQTQ2domtAysvB69"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center btn-primary mt-6"
@@ -760,7 +762,7 @@ const Home = () => {
               className="bg-muted rounded-lg overflow-hidden"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8174445!2d-79.2047!3d-4.0003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cb4a0c0c0c0c0c%3A0x0!2sAv.%20Emiliano%20Ortega%20%26%20Quito%2C%20Loja%2C%20Ecuador!5e0!3m2!1sen!2sec!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8174445!2d-79.2047!3d-4.0003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNMKwMDAnMDEuMSJTIDc5wrAxMicxNi4wIlc!5e0!3m2!1sen!2sec!4v1234567890&ll=-4.0003%2C-79.2047&z=17"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -768,6 +770,7 @@ const Home = () => {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
                 className="w-full h-96"
+                title="Ubicación de la Notaría en Google Maps"
               ></iframe>
               <div className="p-6 bg-card">
                 <div className="flex items-center justify-center space-x-4">
@@ -854,7 +857,7 @@ const Home = () => {
                             <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
                             <p className="text-sm text-gray-500">{testimonial.role}</p>
                           </div>
-                          <button className="ml-auto text-gray-400 hover:text-red-600 transition-colors">
+                          <button className="ml-auto text-gray-400 hover:text-[#007BFF] transition-colors">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5">
                               <path d="M18 8a9 9 0 0 1-9 9m9-9a9 9 0 0 0-9-9m9 9H3m9 9a9 9 0 0 1-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 0 1 9-9"></path>
                             </svg>
@@ -890,7 +893,7 @@ const Home = () => {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    currentIndex === index ? 'bg-red-600 w-8' : 'bg-gray-300'
+                    currentIndex === index ? 'bg-[#007BFF] w-8' : 'bg-gray-300'
                   }`}
                   aria-label={`Ir al testimonio ${index + 1}`}
                 />
@@ -975,7 +978,7 @@ const Home = () => {
                     <p className="text-gray-600 mb-6 leading-relaxed">
                       {faq.respuesta}
                     </p>
-                    <button className="inline-flex items-center text-red-600 font-semibold hover:text-red-700 transition-colors">
+                    <button className="inline-flex items-center text-[#007BFF] font-semibold hover:text-[#0056b3] transition-colors">
                       {faq.cta}
                       <ArrowRight className="w-4 h-4 ml-2" />
                     </button>

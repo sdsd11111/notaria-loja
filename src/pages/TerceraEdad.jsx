@@ -6,15 +6,15 @@ import ContactForm from '../components/ContactForm'
 const TerceraEdad = () => {
   const beneficios = [
     {
-      icon: <Shield className="w-12 h-12 text-red-600" />,
+      icon: <Shield className="w-12 h-12 text-[#007BFF]" />,
       title: 'Seguridad Jurídica',
       description: 'Tu paz mental es nuestra meta. Cada documento emitido cuenta con un análisis riguroso para proteger tus derechos y prevenir conflictos futuros.',
-      color: 'bg-red-50',
-      borderColor: 'border-red-100',
+      color: 'bg-blue-50',
+      borderColor: 'border-blue-100',
       textColor: 'text-gray-800'
     },
     {
-      icon: <Users className="w-12 h-12 text-red-600" />,
+      icon: <Users className="w-12 h-12 text-[#007BFF]" />,
       title: 'Trato Preferencial',
       description: 'Atención personalizada, paciencia y claridad en cada explicación. Nos tomamos todo el tiempo que necesites.',
       color: 'bg-white',
@@ -23,7 +23,7 @@ const TerceraEdad = () => {
       shadow: 'shadow-sm hover:shadow-md'
     },
     {
-      icon: <Clock className="w-12 h-12 text-red-600" />,
+      icon: <Clock className="w-12 h-12 text-[#007BFF]" />,
       title: 'Horarios Flexibles',
       description: 'Te ofrecemos citas en horarios que se adapten a tus necesidades y comodidad.',
       color: 'bg-white',
@@ -32,11 +32,11 @@ const TerceraEdad = () => {
       shadow: 'shadow-sm hover:shadow-md'
     },
     {
-      icon: <CheckCircle className="w-12 h-12 text-red-600" />,
+      icon: <CheckCircle className="w-12 h-12 text-[#007BFF]" />,
       title: 'Asesoría sin Costo',
       description: 'Orientación inicial gratuita para resolver tus dudas sobre cualquier trámite notarial.',
-      color: 'bg-red-50',
-      borderColor: 'border-red-100',
+      color: 'bg-blue-50',
+      borderColor: 'border-blue-100',
       textColor: 'text-gray-800'
     }
   ]
@@ -144,7 +144,7 @@ const TerceraEdad = () => {
                   </div>
                 </div>
                 {index % 2 === 0 && (
-                  <div className="absolute right-0 top-0 w-24 h-24 bg-red-100 rounded-full -mr-12 -mt-12 opacity-30"></div>
+                  <div className="absolute right-0 top-0 w-24 h-24 bg-blue-100 rounded-full -mr-12 -mt-12 opacity-30"></div>
                 )}
               </motion.div>
             ))}
@@ -157,7 +157,7 @@ const TerceraEdad = () => {
         <div className="container-max px-4">
           <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-md overflow-hidden">
             <div className="md:flex">
-              <div className="md:w-1/2 bg-red-700 p-8 md:p-12 text-white">
+              <div className="md:w-1/2 bg-[#007BFF] p-8 md:p-12 text-white">
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -171,21 +171,21 @@ const TerceraEdad = () => {
                       Exoneración de Tarifas Notariales
                     </h2>
                   </div>
-                  <p className="text-lg mb-6 text-red-100">
+                  <p className="text-lg mb-6 text-blue-100">
                     Uno de los beneficios más importantes que le otorga la Ley del Adulto Mayor de Ecuador es la exoneración en el pago de diversas tarifas notariales.
                   </p>
                   <div className="mt-auto space-y-4">
                     <div className="flex items-start">
                       <CheckCircle className="w-5 h-5 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-red-50">Aplicación Directa: En la Notaría, aplicamos rigurosamente estos descuentos y exoneraciones en todos los trámites que corresponde.</p>
+                      <p className="text-blue-50">Aplicación Directa: En la Notaría, aplicamos rigurosamente estos descuentos y exoneraciones en todos los trámites que corresponde.</p>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="w-5 h-5 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-red-50">Transparencia Total: Antes de iniciar cualquier gestión, le informaremos con claridad sobre los costos y los beneficios aplicables a su caso.</p>
+                      <p className="text-blue-50">Transparencia Total: Antes de iniciar cualquier gestión, le informaremos con claridad sobre los costos y los beneficios aplicables a su caso.</p>
                     </div>
                     <div className="flex items-start">
                       <CheckCircle className="w-5 h-5 mt-1 mr-3 flex-shrink-0" />
-                      <p className="text-red-50">Sin Complicaciones: Nos encargamos de gestionar el beneficio directamente para que usted no tenga que preocuparse por procesos adicionales.</p>
+                      <p className="text-blue-50">Sin Complicaciones: Nos encargamos de gestionar el beneficio directamente para que usted no tenga que preocuparse por procesos adicionales.</p>
                     </div>
                   </div>
                 </motion.div>
@@ -206,22 +206,22 @@ const TerceraEdad = () => {
                   </p>
                   <ul className="space-y-4 mb-8">
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 mr-3 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-[#007BFF] mt-0.5 mr-3 flex-shrink-0" />
                       <span className="text-gray-700">Paciencia y Claridad: Nos tomamos todo el tiempo necesario para explicarle cada cláusula y cada documento. Aquí no hay apuros.</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 mr-3 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-[#007BFF] mt-0.5 mr-3 flex-shrink-0" />
                       <span className="text-gray-700">Citas Flexibles: Ofrecemos horarios preferenciales para su comodidad.</span>
                     </li>
                     <li className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 mr-3 flex-shrink-0" />
+                      <CheckCircle className="w-5 h-5 text-[#007BFF] mt-0.5 mr-3 flex-shrink-0" />
                       <span className="text-gray-700">Asesoría sin Costo: Si tiene una duda inicial, no dude en llamarnos. Orientarle es parte de nuestro servicio.</span>
                     </li>
                   </ul>
                   <div className="mt-auto">
                     <a 
                       href="tel:+59372570406" 
-                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
+                      className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-[#007BFF] hover:bg-[#0056b3] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
                       <Phone className="w-5 h-5 mr-2" />
                       Llamar para una Consulta Telefónica
@@ -244,8 +244,8 @@ const TerceraEdad = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-red-100 mb-6">
-              <FileText className="w-8 h-8 text-red-600" />
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-blue-100 mb-6">
+              <FileText className="w-8 h-8 text-[#007BFF]" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Trámites Frecuentes para Nuestros Adultos Mayores en Loja
@@ -263,11 +263,11 @@ const TerceraEdad = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 hover:border-red-200 group"
+                className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-all duration-300 hover:border-blue-200 group"
               >
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-red-50 flex items-center justify-center mr-4 mt-0.5 group-hover:bg-red-100 transition-colors">
-                    <CheckCircle className="w-5 h-5 text-red-600" />
+                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center mr-4 mt-0.5 group-hover:bg-blue-100 transition-colors">
+                    <CheckCircle className="w-5 h-5 text-[#007BFF]" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-gray-900 mb-2">
@@ -285,7 +285,7 @@ const TerceraEdad = () => {
       </section>
 
       {/* Sección de Contacto */}
-      <section className="py-20 bg-gradient-to-r from-red-700 to-red-800">
+      <section className="py-20 bg-gradient-to-r from-[#007BFF] to-[#0056b3]">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -298,7 +298,7 @@ const TerceraEdad = () => {
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 ¿Tiene una Duda? Permítanos Orientarle con Respeto
               </h2>
-              <p className="text-lg text-red-100 mb-6 leading-relaxed">
+              <p className="text-lg text-blue-100 mb-6 leading-relaxed">
                 Usted o un familiar pueden acercarse a nuestra notaría con total confianza. Una consulta a tiempo puede ahorrarle muchas preocupaciones.
               </p>
               
@@ -309,7 +309,7 @@ const TerceraEdad = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <p className="ml-3 text-red-100">Atención Preferencial sin esperas</p>
+                  <p className="ml-3 text-blue-100">Atención Preferencial sin esperas</p>
                 </div>
                 
                 <div className="flex items-start">
@@ -318,7 +318,7 @@ const TerceraEdad = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                   </div>
-                  <p className="ml-3 text-red-100">Asesoría personalizada sin costo</p>
+                  <p className="ml-3 text-blue-100">Asesoría personalizada sin costo</p>
                 </div>
                 
                 <div className="pt-2">
@@ -326,7 +326,7 @@ const TerceraEdad = () => {
                     href="https://wa.me/59372570406?text=Hola,%20soy%20adulto%20mayor%20y%20me%20gustaría%20información"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-red-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
+                    className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-[#007BFF] bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white"
                   >
                     <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M19.2 16.8c.2.3.2.7 0 1-.1.1-.2.2-.3.2h-.2c-.2 0-.4-.1-.6-.2-1.6-1.2-3.5-1.8-5.4-1.9-3.7-.3-7.2 1.2-9.7 3.9v-3.4c-2.4-1.4-4-4-4-6.9C7 5.4 11 1.6 16 1.6s9 3.8 9 8.5c0 1.8-.6 3.5-1.8 4.9v.1c0 .1-.1.2-.1.3v3.4z"/>
