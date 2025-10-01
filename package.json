@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:vercel": "vite build",
     "build:cpanel": "vite build --base=./ && node scripts/fix-asset-paths.js",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "vite preview --port 3000",
     "prepare:cpanel": "npm run build:cpanel && node scripts/prepare-cpanel.js"
   },
   "dependencies": {
