@@ -4,7 +4,7 @@ import './App.css'
 import Header from './components/Header'
 import Footer from './components/Footer'
 import Home from './pages/Home'
-import NotariaOctava from './pages/NotariaOctava'
+import NotariaLoja from './pages/NotariaLoja'
 import TerceraEdad from './pages/TerceraEdad'
 import Blog from './pages/Blog'
 import InmueblesYPropiedades from './pages/servicios/InmueblesYPropiedades'
@@ -25,7 +25,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/notaria-octava" element={<NotariaOctava />} />
+            <Route path="/notaria-loja" element={<NotariaLoja />} />
             <Route path="/tercera-edad" element={<TerceraEdad />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/servicios/inmuebles-y-propiedades" element={<InmueblesYPropiedades />} />

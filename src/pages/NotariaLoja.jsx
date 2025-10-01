@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { CheckCircle } from 'lucide-react'
 
-const NotariaOctava = () => {
+const NotariaLoja = () => {
   return (
     <div className="pt-16">
       {/* Hero Section */}
@@ -246,4 +246,4 @@ const NotariaOctava = () => {
   )
 }
 
-export default NotariaOctava
+export default NotariaLoja

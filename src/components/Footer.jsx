@@ -29,8 +29,8 @@ const Footer = () => {
               <Link to="/" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Inicio
               </Link>
-              <Link to="/notaria-octava" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
-                Notaría Octava
+              <Link to="/notaria-loja" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Notaría Loja
               </Link>
               <Link to="/tercera-edad" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Tercera Edad
@@ -47,17 +47,20 @@ const Footer = () => {
               Servicios
             </h3>
             <div className="space-y-2">
-              <Link to="/servicios/inmuebles-y-propiedades" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
-                Inmuebles y Propiedades
+              <Link to="/servicios/declaraciones-y-otros" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Declaraciones y Otros
               </Link>
-              <Link to="/servicios/familia-y-sucesiones" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
-                Familia y Sucesiones
+              <Link to="/servicios/vehiculos" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Vehículos
               </Link>
               <Link to="/servicios/poderes-y-autorizaciones" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Poderes y Autorizaciones
               </Link>
-              <Link to="/servicios/vehiculos" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
-                Vehículos
+              <Link to="/servicios/familia-y-sucesiones" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Familia y Sucesiones
+              </Link>
+              <Link to="/servicios/inmuebles-y-propiedades" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Inmuebles y Propiedades
               </Link>
             </div>
           </div>
@@ -67,32 +70,28 @@ const Footer = () => {
             <h3 className="text-foreground font-semibold uppercase tracking-wide text-sm">
               Contacto
             </h3>
-            <div className="space-y-3">
+            <div className="space-y-4">
               <div className="flex items-start space-x-3">
-                <MapPin className="w-4 h-4 text-primary mt-0.5 flex-shrink-0" />
+                <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
-                  Av. Emiliano Ortega & Quito<br />
-                  Loja, Ecuador
+                  Av. 24 de Mayo 10-51 y 10 de Agosto, Edificio Plaza Real, Local 1, Loja
                 </span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                <a 
-                  href="tel:+59372570406" 
-                  className="text-muted-foreground hover:text-primary transition-colors text-sm"
-                >
-                  +593 7 257 0406
+                <Phone className="h-5 w-5 text-primary flex-shrink-0" />
+                <a href="tel:+593999999999" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                  +593 99 999 9999
                 </a>
               </div>
               <div className="flex items-center space-x-3">
-                <Clock className="w-4 h-4 text-primary flex-shrink-0" />
+                <Clock className="h-5 w-5 text-primary flex-shrink-0" />
                 <span className="text-muted-foreground text-sm">
                   Lun - Vie: 8:00 AM - 5:00 PM
                 </span>
               </div>
               <div className="flex items-start space-x-3">
                 <div className="w-4 h-4 flex-shrink-0"></div>
-                <EmailLink email="notariaoctava.loja@gmail.com" />
+                <EmailLink email="servicio.notariales@notarialoja.com" />
               </div>
             </div>
           </div>

@@ -98,10 +98,10 @@ const Header = () => {
           </div>
 
           <Link 
-            to="/notaria-octava" 
+            to="/notaria-loja" 
             className="text-foreground/80 hover:text-primary transition-colors duration-300 uppercase tracking-wide text-sm font-medium"
           >
-            Notaría Octava
+            Notaría Loja
           </Link>
           
           <Link 
@@ -155,11 +155,11 @@ const Header = () => {
             </div>
 
             <Link 
-              to="/notaria-octava" 
+              to="/notaria-loja" 
               className="block text-foreground/80 hover:text-primary transition-colors duration-300 uppercase tracking-wide text-sm font-medium"
               onClick={() => setIsMenuOpen(false)}
             >
-              Notaría Octava
+              Notaría Loja
             </Link>
             
             <Link 

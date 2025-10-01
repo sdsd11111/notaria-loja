@@ -18,7 +18,7 @@ export default defineConfig(({ command }) => ({
     sourcemap: true,
   },
   server: {
-    port: 3000,
+    port: 3001,
     open: true,
     historyApiFallback: true,
     proxy: {

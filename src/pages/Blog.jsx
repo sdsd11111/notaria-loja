@@ -32,7 +32,7 @@ const Blog = () => {
             className="max-w-4xl mx-auto"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Blog Notaría Octava Loja
+              Blog Notaría Loja
             </h1>
             
             {/* Search Bar */}
