@@ -1,0 +1,58 @@
+/* Estilos específicos para tablets */
+
+/* Estilos base para tarjetas */
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  border: 1px solid #e5e7eb;
+}
+
+.card-primary {
+  background-color: #f0f9ff;
+  border-color: #bae6fd;
+}
+
+.card-danger {
+  background-color: #fef2f2;
+  border-color: #fecaca;
+}
+
+/* Ajustes para el menú en tablet */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Asegurar que el header sea opaco y tenga altura fija */
+  header {
+    background-color: hsl(var(--background)) !important;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+
+  /* Mejorar la visibilidad del menú móvil en tablet */
+  .mobile-menu {
+    background-color: hsl(var(--background)) !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+
+  /* Ajustar el espaciado en tablet */
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  
+  /* Asegurar que el contenido no quede oculto detrás del header fijo */
+  main {
+    padding-top: 5rem; /* Ajusta según la altura de tu header */
+  }
+}
+
+/* Asegurar que los botones sean táctiles en tablet */
+@media (hover: none) and (pointer: coarse) {
+  button, a[role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
